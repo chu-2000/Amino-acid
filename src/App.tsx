@@ -13,11 +13,11 @@ import {
   Microscope,
   Info
 } from 'lucide-react';
-import { Button } from './components/ui/button';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './components/ui/card';
-import { Badge } from './components/ui/badge';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
-import { Input } from './components/ui/input';
+import { Button } from './components/ui/button.tsx';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './components/ui/card.tsx';
+import { Badge } from './components/ui/badge.tsx';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs.tsx';
+import { Input } from './components/ui/input.tsx';
 import { 
   Dialog, 
   DialogContent, 
@@ -25,11 +25,11 @@ import {
   DialogHeader, 
   DialogTitle, 
   DialogTrigger 
-} from './components/ui/dialog';
-import { Navbar, Footer, Section } from './components/Layout';
-import MoleculeViewer from './components/MoleculeViewer';
-import InquiryForm from './components/InquiryForm';
-import ApplicationMatrix from './components/ApplicationMatrix';
+} from './components/ui/dialog.tsx';
+import { Navbar, Footer, Section } from './components/Layout.tsx';
+import MoleculeViewer from './components/MoleculeViewer.tsx';
+import InquiryForm from './components/InquiryForm.tsx';
+import ApplicationMatrix from './components/ApplicationMatrix.tsx';
 import { INITIAL_PRODUCTS } from './constants';
 import { Product, Grade } from './types';
 

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Send, CheckCircle2 } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Label } from './ui/label';
+import { Button } from './ui/button.tsx';
+import { Input } from './ui/input.tsx';
+import { Label } from './ui/label.tsx';
 
 interface InquiryFormData {
   name: string;
