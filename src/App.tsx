@@ -13,11 +13,11 @@ import {
   Microscope,
   Info
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Input } from '@/components/ui/input';
+import { Button } from './components/ui/button';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './components/ui/card';
+import { Badge } from './components/ui/badge';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
+import { Input } from './components/ui/input';
 import { 
   Dialog, 
   DialogContent, 
@@ -25,7 +25,7 @@ import {
   DialogHeader, 
   DialogTitle, 
   DialogTrigger 
-} from '@/components/ui/dialog';
+} from './components/ui/dialog';
 import { Navbar, Footer, Section } from './components/Layout';
 import MoleculeViewer from './components/MoleculeViewer';
 import InquiryForm from './components/InquiryForm';

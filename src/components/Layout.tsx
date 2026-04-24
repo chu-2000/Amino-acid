@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { motion } from 'motion/react';
 import { Search, Globe, Mail, Phone, Menu } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from './ui/button';
 
 export function Navbar() {
   return (
